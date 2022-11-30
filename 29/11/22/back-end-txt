@@ -1,0 +1,50 @@
+1-Acessar site da amazon.com  
+    1.1-verificar se tem conexão com internet
+    1.2-verificar se o site é seguro
+    1.3-ir até o site
+    1.4-Entrar no site
+    1.5-fim
+2-ver se tem saldo
+    1.1-logar na contado banco
+    1.2-
+3-Escolher o produto 
+4- Capacidade de processamento
+5-Qual o tamanho da memoria
+6-Escolher o tamanhodo hd ou ssd
+7-A cor
+8-quantas polegadas
+9-quantos anos de garantia
+10-se vai ter placa de video ou não
+11-quanto tempo dura a bateria
+12-depois da entrega
+13-avaliar o produto
+14-finalizar a compra
+
+============================================================================================================================
+
+
+
+
+
+
+1-Aguadar o primeiro numero
+ 2-Aguadar o segundo numero
+ 3-calcular a soma entre o primeiro eo segundo numero
+ 4-o resultado do seu calculo é a soma armazena
+ 5-Exibir o resultado do calculo
+
+ Tarefa:
+  fazer um programa que calcule o valor de imposto de renda baseado em um salario. {Aliquota imposto de renda: 7,5%}
+const aliquota7,5%
+var n1
+var n2
+var calculo
+
+readln()
+readln()
+calculo=n1+n2;
+writeln("")
+
+
+
+
