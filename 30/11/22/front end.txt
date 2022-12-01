@@ -1,0 +1,72 @@
+Tarefa:
+  fazer um programa que calcule o valor de imposto de renda baseado em um salario. {Aliquota imposto de renda: 7,5%}
+const aliquota7,5%
+
+1- Descrição narrativa
+
+solicitar ao usuario o valor do salario
+calcular o valor do imposto a recolher baseada na aliquota de 7,5%
+ mostra ao usuario o valor do imposto calculo
+
+ 2- pseudocódigo
+ const aliquota 7,5%
+ var salario
+ var impostoDevido
+readln ("informe o salario",salario);
+impostoDevido= salario*aliquota;
+writeln("o valor do impostoDevido é:",impostoDevido)
+
+==========================================================================
+Tarefa de hoje
+
+Escrever um programa que baseado no valor do salario vai informar ao usuario,a aliquota do imposto de renda.
+
+
+1- Descrição narrativa
+
+
+
+1- solicitar o usuario valor do seu salario.
+
+
+2-Se o salario for menor ou igual a 1.903,98 então escreva "isento"
+
+3- Se o salario for maoir que 1.903,98
+e menor que 2.826.66 então escreva:"Sua aliquota é de 7,5%
+
+4-Se o salario for maoir que 2.826.65
+e menor que 3.751,06 então escreva:"Sua aliquota é de 15%
+
+5-Se o salario for maoir que 3.751,05
+e menor que 4664,68  então escreva:"Sua aliquota é de 22,5%"
+6- Se o salario for maoir que 4.664,68 então escreva:"Sua aliquota é 27,5%"
+
+
+
+===============================================================================
+
+
+2-Pseudocódigo
+const faixa1 ='isento'
+const faixa2 ='7,5%'
+const faixa3 = '15%'
+const faixa4 = '22,5%'
+const faixa5 = '27,5%'
+var salario
+
+readln("informe o valor do seu salario",salario);
+
+if (salario<=1.903,98)then
+   writeln(""Você está livre do leão,faixa1);
+
+   eslseif(salario >=1.903,99 and <=2.826,65)then
+     writeln("Você está livre do leão,faixa2");
+
+    eslseif(salario>=2.826,65 and <= 3.751,06 )then
+    writeln(""Sua aliquota é de faixa3)
+
+  eslseif(salario >=4.664,68 and)then
+     writeln("Sua aliquota é de,"faixa4");
+
+     eslse
+     writeln("Sua aliquota é de faixa5");
